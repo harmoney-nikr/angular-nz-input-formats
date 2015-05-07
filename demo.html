@@ -21,8 +21,12 @@
         <input name="bank-number" nz-bank-number ng-model="bankNumber"/>
     </label><br/>
     <label>
-        Phone Number: {{ phoneNumber }} <br/>
-        <input name="phone-number" nz-phone-number="{intl: false, type: 'special'}" ng-model="phoneNumber"/>
+        Mobile Phone Number: {{ mobilePhoneNumber }} <br/>
+        <input name="mobile-phone-number" nz-phone-number="{intl: false, type: 'mobile'}" ng-model="mobilePhoneNumber"/>
+    </label><br/>
+    <label>
+        Landline Phone Number: {{ landlinePhoneNumber }} <br/>
+        <input name="landline-phone-number" nz-phone-number="{intl: false, type: 'landline'}" ng-model="landlinePhoneNumber"/>
     </label><br/>
 </form>
 
